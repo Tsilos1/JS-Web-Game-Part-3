@@ -19,18 +19,11 @@ function move(image){
     }
 }
 
-// let thingThatMoveReturns = move(greenCharacter)
-// thingThatMoveReturns.to
-// thingThatMoveReturns.to(300, 300)
-
-
 
 let greenCharacter = newImage('assets/green-character.gif')
 let thingThatMoveReturns = move(greenCharacter)
 thingThatMoveReturns.to(100, 250)
 
-
-move(newImage('assets/green-character.gif')).to(100, 250)
 
 
 
@@ -77,8 +70,8 @@ function newInventory(){
 const inventory = newInventory()
 
 
-function move(image, left, bottom){
-    image.style.position = 'fixed'
-    image.style.left = left + 'px'
-    image.style.bottom = bottom + 'px'
-}
+// function move(image, left, bottom){
+//     image.style.position = 'fixed'
+//     image.style.left = left + 'px'
+//     image.style.bottom = bottom + 'px'
+// }
